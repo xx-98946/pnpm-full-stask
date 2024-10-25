@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "lodash": "^4.17.21"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm -C ./packages/front dev & pnpm -C ./packages/server dev",
+    "fmt": "pnpm -C ./packages/front fmt",
+    "build":"pnpm -C ./packages/front build"
+  }
+}
